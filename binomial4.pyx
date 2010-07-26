@@ -1,4 +1,6 @@
-"""Functions to price calls and puts with a binomial tree.
+"""Fast Cython version of binomial options pricing that releases the GIL.
+
+This also has array bounds and wrap-around checking disabled.
 
 To use this interactively, just do::
 

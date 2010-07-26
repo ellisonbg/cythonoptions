@@ -1,4 +1,4 @@
-"""Functions to price calls and puts with a binomial tree.
+"""Pure Python binomial options pricing using a Jarrow-Rudd model.
 
 To use this interactively, just do::
 
@@ -10,7 +10,7 @@ import numpy as np
 import math
 
 def jarrow_rudd(s, k, t, v, rf, cp, am=False, n=100):
-    """Price an option using the Jarrow Rudd binomial model.
+    """Price an option using the Jarrow-Rudd binomial model.
     
     s : initial stock price
     k : strike price

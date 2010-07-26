@@ -1,4 +1,4 @@
-"""Functions to price calls and puts with a binomial tree.
+"""Unmodified Cython based binomial options pricing.
 
 To use this interactively, just do::
 
