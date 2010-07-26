@@ -1,4 +1,11 @@
-"""Functions to price calls and puts with a binomial tree."""
+"""Functions to price calls and puts with a binomial tree.
+
+To use this interactively, just do::
+
+    >>> from binomial import jarrow_rudd
+    >>> jarrow_rudd(100.0, 100.0, 1.0, 0.3, 0.03, -1, True, 100)
+    10.627682380924412
+"""
 import numpy as np
 import math
 

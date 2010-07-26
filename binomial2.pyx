@@ -1,10 +1,12 @@
 """Functions to price calls and puts with a binomial tree.
 
-To compile and import this module do::
+To use this interactively, just do::
 
     >>> import pyximport
     >>> pyximport.install()
     >>> from binomial2 import jarrow_rudd
+    >>> jarrow_rudd(100.0, 100.0, 1.0, 0.3, 0.03, -1, True, 100)
+    10.627682380924412
 """
 import numpy as np
 import math
